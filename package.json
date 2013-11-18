@@ -1,0 +1,22 @@
+{
+  "name": "janitorjs",
+  "version": "0.0.1",
+  "description": "janitor.js ==========",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/classdojo/janitor.js.git"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/classdojo/janitor.js/issues"
+  },
+  "dependencies": {
+    "protoclass": "0.0.1",
+    "type-component": "0.0.1"
+  }
+}
