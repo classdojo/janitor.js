@@ -27,6 +27,22 @@ describe("janitor#", function() {
   /**
    */
 
+  it("can remove an item from cleanup", function () {
+    var j = janitor(), d, i = 0;
+    j.add(d = {
+      dispose: function() {
+        i++;
+      }
+    });
+
+    j.remove(d);
+    j.dispose();
+    expect(i).to.be(0);
+  })
+
+  /**
+   */
+
   it("can handle multiple items", function () {
     var j = janitor(), i = 0;
 
