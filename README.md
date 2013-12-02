@@ -1,4 +1,4 @@
-Janitor.js is a simple utility that helps cleanup objects. 
+Janitor.js is a simple utility that helps cleanup objects. [![Alt ci](https://travis-ci.org/classdojo/janitor.js.png)](https://travis-ci.org/classdojo/janitor.js)
 
 ### installation
 
