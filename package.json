@@ -16,7 +16,7 @@
     "url": "https://github.com/classdojo/janitor.js/issues"
   },
   "dependencies": {
-    "protoclass": "0.0.1",
+    "protoclass": "0.0.x",
     "type-component": "0.0.1"
   },
   "devDependencies": {
