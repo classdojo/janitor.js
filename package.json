@@ -4,7 +4,7 @@
   "description": "janitor.js ==========",
   "main": "./lib/index.js",
   "scripts": {
-	"test": "mocha"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,9 @@
   "dependencies": {
     "protoclass": "0.0.1",
     "type-component": "0.0.1"
+  },
+  "devDependencies": {
+    "expect.js": "~0.2.0",
+    "mocha": "~1.15.0"
   }
 }
